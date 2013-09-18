@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hsb.mk
+    $(LOCAL_DIR)/hsb/hsb.mk
