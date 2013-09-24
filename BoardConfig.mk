@@ -3,6 +3,8 @@
 
 include device/intel/common/BoardConfig.mk
 
+TARGET_BOARD_PLATFORM := haswell
+
 ifeq ($(ANDROID_CONSOLE),usb)
 BOARD_CONSOLE_DEVICE := ttyUSB0,115200n8
 else ifeq ($(ANDROID_CONSOLE),serial)
