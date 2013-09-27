@@ -16,4 +16,4 @@ $(call inherit-mixin, houdini, true)
 $(call inherit-mixin, boot-arch, efi)
 $(call inherit-mixin, graphics, mesa)
 $(call inherit-mixin, ethernet, static)
-
+$(call inherit-mixin, storage, sdcard)
