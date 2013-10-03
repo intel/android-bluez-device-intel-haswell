@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-mixin, gms, false)
 $(call inherit-mixin, houdini, true)
 $(call inherit-mixin, boot-arch, efi)
+$(call inherit-mixin, display-density, medium)
 $(call inherit-mixin, graphics, ufo)
 $(call inherit-mixin, ethernet, static)
 $(call inherit-mixin, storage, sdcard)
