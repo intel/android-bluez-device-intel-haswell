@@ -28,4 +28,4 @@ $(call inherit-mixin, fastboot, userfastboot)
 $(call inherit-mixin, audio, pc)
 $(call inherit-mixin, power, i2c)
 $(call inherit-mixin, video, ufo)
-
+$(call inherit-mixin, wifi, intel-upstream)
