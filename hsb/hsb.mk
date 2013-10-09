@@ -26,6 +26,6 @@ $(call inherit-mixin, ethernet, static)
 $(call inherit-mixin, storage, sdcard)
 $(call inherit-mixin, fastboot, userfastboot)
 $(call inherit-mixin, audio, pc)
-$(call inherit-mixin, power, hsw)
+$(call inherit-mixin, power, i2c)
 $(call inherit-mixin, video, ufo)
 
