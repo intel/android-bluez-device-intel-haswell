@@ -22,3 +22,6 @@ TARGET_KERNEL_ARCH := x86_64
 TARGET_KERNEL_SOURCE := linux/kernel-uefi
 TARGET_KERNEL_CONFIG := $(TARGET_KERNEL_ARCH)_bigcore_android_defconfig
 
+# Defines Intel library for GPU accelerated Renderscript:
+OVERRIDE_RS_DRIVER := libRSDriver_intel7.so
+
