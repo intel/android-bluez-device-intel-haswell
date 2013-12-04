@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
 # OTA tasks; there currently can only be one of these.
 TARGET_RELEASETOOLS_EXTENSIONS := device/intel/common/releasetools/releasetools-generic-efi.py
 
-$(call inherit-mixin, gms, false)
+$(call inherit-mixin, gms, true)
 $(call inherit-mixin, houdini, true)
 $(call inherit-mixin, boot-arch, efi)
 $(call inherit-mixin, display-density, medium)
