@@ -1,7 +1,5 @@
 include device/intel/haswell/BoardConfig.mk
 
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 872415232
-
 TARGET_USE_MOKMANAGER := true
 
 # Note, Iago installer also sets androidboot.disk via bootloader

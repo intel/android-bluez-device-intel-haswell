@@ -15,9 +15,6 @@ endif
 
 BOARD_KERNEL_CMDLINE += console=$(BOARD_CONSOLE_DEVICE)
 
-TARGET_IAGO_INI := device/intel/haswell/iago.ini
-TARGET_IAGO_DEFAULT_INI := device/intel/haswell/iago-default.ini
-
 TARGET_KERNEL_ARCH := x86_64
 TARGET_KERNEL_SOURCE := linux/kernel-uefi
 TARGET_KERNEL_CONFIG := $(TARGET_KERNEL_ARCH)_bigcore_android_defconfig
