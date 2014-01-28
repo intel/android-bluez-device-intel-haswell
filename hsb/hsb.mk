@@ -3,7 +3,7 @@ include device/intel/haswell/haswell.mk
 
 PRODUCT_NAME := hsb
 PRODUCT_DEVICE := hsb
-PRODUCT_MODEL := Harris Beach FFRD
+PRODUCT_MODEL := bigcore platform
 
 LOCAL_PATH := device/intel/haswell/hsb
 
