@@ -10,6 +10,7 @@ LOCAL_PATH := device/intel/haswell/hsb
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.rc:root/init.$(TARGET_PRODUCT).rc \
 	$(LOCAL_PATH)/init.recovery.rc:root/init.recovery.$(TARGET_PRODUCT).rc \
+	$(LOCAL_PATH)/camera_hsb.xml:system/etc/camera_hsb.xml \
 	frameworks/native/data/etc/android.hardware.faketouch.xml:system/etc/permissions/android.hardware.faketouch.xml \
 	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml
 # Releasetools extensions for updating EFI System Partition and
