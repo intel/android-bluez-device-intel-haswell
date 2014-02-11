@@ -26,4 +26,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hsb/hsb.mk
+    $(LOCAL_DIR)/hsb/hsb.mk \
+    $(LOCAL_DIR)/hsb/aosp_hsb.mk
+

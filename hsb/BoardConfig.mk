@@ -8,3 +8,7 @@ TARGET_USE_MOKMANAGER := true
 BOARD_KERNEL_CMDLINE += \
 		androidboot.sdcard=sdb1
 
+ifeq ($(TARGET_PRODUCT),aosp_hsb)
+    USE_INTEL_IPP := false
+endif
+
