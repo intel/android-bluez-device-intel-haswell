@@ -6,5 +6,5 @@ TARGET_USE_MOKMANAGER := true
 # config, if Iago not used you will need to add
 # androidboot.disk=pci0000:00/0000:00:1f.2
 BOARD_KERNEL_CMDLINE += \
-		androidboot.sdcard=sdb
+		androidboot.sdcard=sdb1
 
