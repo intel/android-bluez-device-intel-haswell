@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/Subsystem.xsd" Name="HDAUDIO" Type="ALSACTL" Endianness="Little">
+        <ComponentLibrary>
+                <ComponentType Name="DEVICE_MONO">
+                    <BooleanParameter Name="ENABLED" Mapping="Control:%2%1 Switch"/>
+                    <IntegerParameter Name="VOLUME" Size="8" Min="0" Max="87" Mapping="Control:%2%1 Volume"/>
+                </ComponentType>
+
+                <ComponentType Name="DEVICE_STEREO">
+                    <BooleanParameter Name="ENABLED" ArrayLength="2" Mapping="Control:%2%1 Switch"/>
+                </ComponentType>
+
+                <ComponentType Name="DEVICE_STEREO_PLAYBACK" Extends="DEVICE_STEREO">
+                    <IntegerParameter Name="VOLUME" ArrayLength="2" Size="8" Min="0" Max="87" Mapping="Control:%2%1 Volume"/>
+                </ComponentType>
+
+                <ComponentType Name="OUTPUT">
+                    <Component Name="HEADSET" Type="DEVICE_STEREO_PLAYBACK" Mapping="Amend2:Headphone "/>
+                    <Component Name="MASTER" Type="DEVICE_MONO" Mapping="Amend2:Master "/>
+                    <Component Name="SPEAKER" Type="DEVICE_STEREO_PLAYBACK" Mapping="Amend2:Speaker "/>
+                </ComponentType>
+
+                <ComponentType Name="INPUT">
+                    <IntegerParameter Name="VOLUME" ArrayLength="2" Size="8" Min="0" Max="63" Mapping="Control:Capture Volume"/>
+                    <BooleanParameter Name="ENABLED" ArrayLength="2" Mapping="Control:Capture Switch"/>
+                </ComponentType>
+        </ComponentLibrary>
+
+        <InstanceDefinition>
+                <Component Name="INPUT" Type="INPUT" Mapping="Card:PCH,Amend1:Capture,Debug"/>
+                <Component Name="OUTPUT" Type="OUTPUT" Mapping="Card:PCH,Amend1:Playback,Debug"/>
+        </InstanceDefinition>
+</Subsystem>
