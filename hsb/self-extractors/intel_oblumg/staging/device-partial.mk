@@ -113,5 +113,4 @@ PRODUCT_COPY_FILES := \
     vendor/intel_oblumg/hsb/proprietary/libz.so:system/lib/arm/libz.so:intel_oblumg \
     vendor/intel_oblumg/hsb/proprietary/linker:system/lib/arm/linker:intel_oblumg \
     vendor/intel_oblumg/hsb/proprietary/libhoudini.so:system/lib/libhoudini.so:intel_oblumg \
-    vendor/intel_oblumg/hsb/proprietary/libhoudini.so.4.0.0.44205:system/lib/libhoudini.so.4.0.0.44205:intel_oblumg \
 

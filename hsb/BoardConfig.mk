@@ -12,3 +12,6 @@ ifeq ($(TARGET_PRODUCT),aosp_hsb)
     USE_INTEL_IPP := false
 endif
 
+# Pulls in additional Makefiles relevant to blob-release
+-include vendor/intel/hsb/BoardConfigVendor.mk
+

@@ -17,6 +17,8 @@
 
 #  blob(s) necessary for Harris Beach hardware
 PRODUCT_COPY_FILES := \
+    vendor/intel_apache/hsb/proprietary/370710010002030d00.seq:system/etc/firmware/370710010002030d00.seq:intel_apache \
+    vendor/intel_apache/hsb/proprietary/370710018002030d00.seq:system/etc/firmware/370710018002030d00.seq:intel_apache \
     vendor/intel_apache/hsb/proprietary/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml:intel_apache \
     vendor/intel_apache/hsb/proprietary/audio.primary.aosp_hsb.so:system/lib/hw/audio.primary.aosp_hsb.so:intel_apache \
     vendor/intel_apache/hsb/proprietary/camera.aosp_hsb.so:system/lib/hw/camera.aosp_hsb.so:intel_apache \

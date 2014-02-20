@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES := \
     vendor/intel_obl/hsb/proprietary/libGLES_intel.so:system/lib/egl/libGLES_intel.so:intel_obl \
     vendor/intel_obl/hsb/proprietary/gralloc.haswell.so:system/lib/hw/gralloc.haswell.so:intel_obl \
     vendor/intel_obl/hsb/proprietary/hwcomposer.haswell.so:system/lib/hw/hwcomposer.haswell.so:intel_obl \
+    vendor/intel_obl/hsb/proprietary/power.aosp_hsb.so:system/lib/hw/power.aosp_hsb.so:intel_obl \
     vendor/intel_obl/hsb/proprietary/i965_drv_video.so:system/lib/i965_drv_video.so:intel_obl \
     vendor/intel_obl/hsb/proprietary/igfxcmjit32.so:system/lib/igfxcmjit32.so:intel_obl \
     vendor/intel_obl/hsb/proprietary/igfxcmrt32.so:system/lib/igfxcmrt32.so:intel_obl \
