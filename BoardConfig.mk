@@ -21,3 +21,6 @@ TARGET_KERNEL_CONFIG := $(TARGET_KERNEL_ARCH)_bigcore_android_defconfig
 # Defines Intel library for GPU accelerated Renderscript:
 OVERRIDE_RS_DRIVER := libRSDriver_intel7.so
 
+# Allow HWC to preform a final CSC on virtual displays
+TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
+
