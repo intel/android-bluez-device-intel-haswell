@@ -511,16 +511,6 @@
         minChannels="1" maxChannels="1" />
 
     <!--
-        FIXME:
-        We do not check decoder capabilities at present
-        At present, we only check whether windows media is visible
-        for TEST applications. For other applications, we do
-        not perform any checks at all.
-    -->
-    <VideoDecoderCap name="wmv" enabled="true"/>
-    <AudioDecoderCap name="wma" enabled="true"/>
-
-    <!--
         The VideoEditor Capability configuration:
         - maxInputFrameWidth: maximum video width of imported video clip.
         - maxInputFrameHeight: maximum video height of imported video clip.
