@@ -12,7 +12,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.recovery.rc:root/init.recovery.$(TARGET_PRODUCT).rc \
 	$(LOCAL_PATH)/camera_hsb.xml:system/etc/camera_hsb.xml \
 	frameworks/native/data/etc/android.hardware.faketouch.xml:system/etc/permissions/android.hardware.faketouch.xml \
-	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml
+	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
+        frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+	#HSB platform supports only front facing camera.
+        #frameworks/native/data/etc/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml
+
+# Enable Camera Launcher app support.
+INTEL_USE_CAMERA_LAUNCHER := true
+
 # Releasetools extensions for updating EFI System Partition and
 # userfastboot (if present). Product teams will need to copy this
 # file and make their own changes to it if they have additional
