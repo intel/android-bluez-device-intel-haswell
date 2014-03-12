@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.rc:root/init.$(TARGET_PRODUCT).rc \
 	$(LOCAL_PATH)/init.recovery.rc:root/init.recovery.$(TARGET_PRODUCT).rc \
 	$(LOCAL_PATH)/camera_hsb.xml:system/etc/camera_hsb.xml \
+	$(LOCAL_PATH)/AT_Translated_Set_2_keyboard.idc:system/usr/idc/AT_Translated_Set_2_keyboard.idc \
 	frameworks/native/data/etc/android.hardware.faketouch.xml:system/etc/permissions/android.hardware.faketouch.xml \
 	frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
         frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
