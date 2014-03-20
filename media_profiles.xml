@@ -157,7 +157,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+<!--
         <EncoderProfile quality="720p" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="3000000"
@@ -170,7 +170,6 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
         <EncoderProfile quality="1080p" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="13000000"
@@ -183,7 +182,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+-->
         <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="13000000"
@@ -249,7 +248,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+<!--
         <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="3000000"
@@ -275,7 +274,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+-->
 
         <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
@@ -366,7 +365,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+<!--
         <EncoderProfile quality="720p" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="3000000"
@@ -379,7 +378,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+-->
         <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="3000000"
@@ -445,7 +444,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+<!--
         <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="60">
             <Video codec="h264"
                    bitRate="3000000"
@@ -458,7 +457,7 @@
                    sampleRate="8000"
                    channels="1" />
         </EncoderProfile>
-
+-->
 
         <ImageEncoding quality="90" />
         <ImageEncoding quality="80" />
