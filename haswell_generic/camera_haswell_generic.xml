@@ -1,0 +1,14 @@
+<camera>
+    <prop>
+        <vendorId value="04f2"/>
+        <productId value="b378"/>
+        <facing value="CAMERA_FACING_FRONT" />
+        <orientation value="0" />
+    </prop>
+    <prop>
+        <vendorId value="04f2"/>
+        <productId value="b436"/>
+        <facing value="CAMERA_FACING_FRONT" />
+        <orientation value="0" />
+    </prop>
+</camera>

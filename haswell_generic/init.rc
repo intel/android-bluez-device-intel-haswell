@@ -1,0 +1,15 @@
+import init.haswell.rc
+
+on boot
+    insmod /system/lib/modules/mfd-core.ko
+    insmod /system/lib/modules/industrialio.ko
+    insmod /system/lib/modules/kfifo_buf.ko
+    insmod /system/lib/modules/industrialio-triggered-buffer.ko
+    insmod /system/lib/modules/hid-sensor-hub.ko
+    insmod /system/lib/modules/hid-sensor-iio-common.ko
+    insmod /system/lib/modules/hid-sensor-trigger.ko
+    insmod /system/lib/modules/hid-sensor-accel-3d.ko
+    insmod /system/lib/modules/hid-sensor-gyro-3d.ko
+    insmod /system/lib/modules/hid-sensor-als.ko
+    insmod /system/lib/modules/hid-sensor-magn-3d.ko
+    write /proc/sys/kernel/ctrl-alt-del 0

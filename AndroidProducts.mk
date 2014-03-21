@@ -27,5 +27,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hsb/hsb.mk \
-    $(LOCAL_DIR)/hsb/aosp_hsb.mk
+    $(LOCAL_DIR)/hsb/aosp_hsb.mk \
+    $(LOCAL_DIR)/haswell_generic/haswell_generic.mk
 
