@@ -477,9 +477,9 @@
          or query the capabilities of the codec at all if it is disabled
     -->
     <VideoEncoderCap name="h264" enabled="true"
-        minBitRate="64000" maxBitRate="13000000"
-        minFrameWidth="176" maxFrameWidth="1920"
-        minFrameHeight="144" maxFrameHeight="1080"
+        minBitRate="64000" maxBitRate="2000000"
+        minFrameWidth="176" maxFrameWidth="352"
+        minFrameHeight="144" maxFrameHeight="288"
         minFrameRate="-1" maxFrameRate="30" />
 
     <VideoEncoderCap name="h263" enabled="true"
@@ -534,8 +534,8 @@
         maxInputFrameHeight="1088" maxOutputFrameWidth="1920"
         maxOutputFrameHeight="1088" maxPrefetchYUVFrames="6"/>
 
-		<ExportVideoProfile name="h263" profile="1" level="1" />
-		<ExportVideoProfile name="h264" profile="1" level="4096" />
-		<ExportVideoProfile name="m4v" profile="1" level="16" />
+    <ExportVideoProfile name="h263" profile="1" level="1" />
+    <ExportVideoProfile name="h264" profile="1" level="32" />
+    <ExportVideoProfile name="m4v" profile="1" level="16" />
 
 </MediaSettings>
