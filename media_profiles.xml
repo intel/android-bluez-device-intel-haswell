@@ -146,11 +146,11 @@
 
         </EncoderProfile>
         <EncoderProfile quality="480p" fileFormat="mp4" duration="60">
-            <Video codec="h264"
-                   bitRate="3000000"
+            <Video codec="m4v"
+                   bitRate="2000000"
                    width="640"
                    height="480"
-                   frameRate="30" />
+                   frameRate="24" />
 
             <Audio codec="aac"
                    bitRate="12200"
@@ -237,11 +237,11 @@
         </EncoderProfile>
 
         <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="60">
-            <Video codec="h264"
-                   bitRate="3000000"
+            <Video codec="m4v"
+                   bitRate="2000000"
                    width="640"
                    height="480"
-                   frameRate="30" />
+                   frameRate="24" />
 
             <Audio codec="aac"
                    bitRate="12200"
@@ -354,11 +354,11 @@
         </EncoderProfile>
 
         <EncoderProfile quality="480p" fileFormat="mp4" duration="60">
-            <Video codec="h264"
-                   bitRate="3000000"
+            <Video codec="m4v"
+                   bitRate="2000000"
                    width="640"
                    height="480"
-                   frameRate="30" />
+                   frameRate="24" />
 
             <Audio codec="aac"
                    bitRate="12200"
@@ -433,11 +433,11 @@
         </EncoderProfile>
 
         <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="60">
-            <Video codec="h264"
-                   bitRate="3000000"
+            <Video codec="m4v"
+                   bitRate="2000000"
                    width="640"
                    height="480"
-                   frameRate="30" />
+                   frameRate="24" />
 
             <Audio codec="aac"
                    bitRate="12200"
