@@ -13,3 +13,4 @@ on boot
     insmod /system/lib/modules/hid-sensor-als.ko
     insmod /system/lib/modules/hid-sensor-magn-3d.ko
     write /proc/sys/kernel/ctrl-alt-del 0
+    write /sys/module/video/parameters/brightness_switch_enabled 0
